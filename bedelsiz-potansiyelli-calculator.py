@@ -2,6 +2,20 @@ from lxml import html
 import requests
 import re
 
+#########################################################################################################################################
+																	#	
+own_companies=[]
+		   # eğer sadece kendi istediğin şirketleri hesaplamak istersen buradaki köşeli parantez içine yaz kodlarını 		#
+		   # örn: ['OTKAR','EGGUB','EGEEN']											#
+	           # EĞER tüm şirketler için tek seferde hesaplamak istersen boş bırak burayı  						#
+		   # yani bu satır own_companies= [] şeklinde kalsın									#
+																	#
+#########################################################################################################################################
+
+
+
+
+
 
 session1=requests.session()
 kap_html=session1.get('https://www.kap.org.tr/tr/bist-sirketler').text
@@ -20,7 +34,7 @@ print("""
 	Bedelli Potansiyeli Hesaplama işlemi başlıyor .. Tahmini süre 15-20 dk
 	Sirketin ozsermayesi/toplam hisse adedi orani ne kadar yuksek olursa bedelsiz verme ihtimali de o kadar yuksek olabilir kesin değill!
 	ve hesaplamalar sonucunda çıkan oran *100 yaparsan yüzde kaç bedelsiz vereceğini bulursun ve mesela 
-	15 kat falan olmali  yani %1500 bedelsiz vermesi için, ki bir şeyler olsun hisseye
+	15 kat falan olmali yani %1500 bedelsiz vermesi için (15 üstü sevindirebilir)
       """)
 
 
@@ -28,9 +42,8 @@ url = "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/sirket-karti.asp
 session2=requests.session()
 result={}
 
-own_companies=[]   # eğer kendi istediğin şirketleri hesaplamak istersen buradaki köşeli parantez içine yaz kodlarını EĞER tüm
-				   # şirketler için tek seferde hesaplamak istersen boş bırak burayı yani bu satır own_companies=[] şekilnde kalsın
-				   # örn: ['OTKAR','EGGUB','EGEEN']
+
+				   
 if len(own_companies) != 0:
 	for company in own_companies:
 		try:
@@ -40,7 +53,7 @@ if len(own_companies) != 0:
 			oz_kaynak = float(content.xpath("//*[@id='malitabloShortTbody']/tr[1]/td[2][text()]")[0].text.replace(",", "."))
 			odenmis_sermaye=float(content.xpath("//*[@id='malitabloShortTbody']/tr[2]/td[2][text()]")[0].text.replace(",", "."))
 
-			potential=round(((oz_kaynak-odenmis_sermaye)/odenmis_sermaye)*100,3)
+			potential=round(oz_kaynak/odenmis_sermaye,3) # veya -> round(((oz_kaynak-odenmis_sermaye)/odenmis_sermaye)*100,3)
 			result["".join([company])]=potential
 			print("{} ---> {}".format(company,potential))
 		except Exception as e:
