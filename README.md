@@ -1,7 +1,7 @@
 # Borsah-TR
 Some Ratio Calculations for Investment in Turkish Stock Market
 
-## January Update Bedelsiz Potansiyelli ##
+## February Update Bedelsiz Potansiyelli ##
 
     [
         "YBTAS",
