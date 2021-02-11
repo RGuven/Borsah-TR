@@ -4,7 +4,6 @@ Some Ratio Calculations for Investment in Turkish Stock Market
 ## January Update Bedelsiz Potansiyelli ##
 
     [
-    [
         "YBTAS",
         {
             "Potantial": 123500.0,
@@ -2727,4 +2726,4 @@ Some Ratio Calculations for Investment in Turkish Stock Market
             "Sheet": "Henuz 2020/12 Aciklanmamis"
         }
     ]
-]
+
