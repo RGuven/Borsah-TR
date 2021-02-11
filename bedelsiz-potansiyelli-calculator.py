@@ -1,6 +1,8 @@
 from lxml import html
 import requests
 import re
+from datetime import datetime
+import json
 
 #########################################################################################################################################
 																	#	
@@ -45,38 +47,55 @@ result={}
 
 				   
 if len(own_companies) != 0:
-	for company in own_companies:
-		try:
+    for company in own_companies:
+        try:
+            page = session2.get(url.format(company))
+            content = html.fromstring(page.content)
+            oz_kaynak = float(content.xpath("//*[@id='malitabloShortTbody']/tr[1]/td[2][text()]")[0].text.replace(",", "").replace(".", ""))
+            odenmis_sermaye=float(content.xpath("//*[@id='malitabloShortTbody']/tr[2]/td[2][text()]")[0].text.replace(",", "").replace(".", ""))
 
-			page = session2.get(url.format(company))
-			content = html.fromstring(page.content)
-			oz_kaynak = float(content.xpath("//*[@id='malitabloShortTbody']/tr[1]/td[2][text()]")[0].text.replace(",", "."))
-			odenmis_sermaye=float(content.xpath("//*[@id='malitabloShortTbody']/tr[2]/td[2][text()]")[0].text.replace(",", "."))
+            potential=round(((oz_kaynak-odenmis_sermaye)/odenmis_sermaye)*100,3)
+            
+            
+            try:
+                sheet_year=str(content.xpath("//*[@value='2020/12']")[0].text)
+            except :
+                sheet_year="Henuz 2020/12 Aciklanmamis"
+           
 
-			potential=round(oz_kaynak/odenmis_sermaye,3) # veya -> round(((oz_kaynak-odenmis_sermaye)/odenmis_sermaye)*100,3)
-			result["".join([company])]=potential
-			print("{} ---> {}".format(company,potential))
-		except Exception as e:
-			pass
-
+            result[company]={"Potantial":potential,"Sheet":sheet_year}
+            print("{} ---> {} --> Sheet: {}".format(company,potential,sheet_year))
+            
+        except Exception as e:
+            pass
+        
 else:	
-	for company in companies:
-		try:
-		
-			page = session2.get(url.format(company))
-			content = html.fromstring(page.content)
-			oz_kaynak = float(content.xpath("//*[@id='malitabloShortTbody']/tr[1]/td[2][text()]")[0].text.replace(",", "."))
-			odenmis_sermaye=float(content.xpath("//*[@id='malitabloShortTbody']/tr[2]/td[2][text()]")[0].text.replace(",", "."))
+    for company in companies:
+        try:
+            page = session2.get(url.format(company))
+            content = html.fromstring(page.content)
+            oz_kaynak = float(content.xpath("//*[@id='malitabloShortTbody']/tr[1]/td[2][text()]")[0].text.replace(",", "").replace(".", ""))
+            odenmis_sermaye=float(content.xpath("//*[@id='malitabloShortTbody']/tr[2]/td[2][text()]")[0].text.replace(",", "").replace(".", ""))
 
-			potential=round(oz_kaynak/odenmis_sermaye,3)
-			result["".join([company])]=potential
-			print("{} ---> {}".format(company,potential))
-		except Exception as e:
-			pass
+            potential=round(((oz_kaynak-odenmis_sermaye)/odenmis_sermaye)*100,3)
 
-print(dict(sorted(result.items(), key=lambda item: item[1],reverse=True)))
+            try:
+                sheet_year=str(content.xpath("//*[@value='2020/12']")[0].text)
+            except :
+                sheet_year="Henuz 2020/12 Aciklanmamis"
+           
+
+            result[company]={"Potantial":potential,"Sheet":sheet_year}
+            print("{} ---> {} --> Sheet: {}".format(company,potential,sheet_year))
+        except Exception as e:
+            pass
+
+res=sorted(result.items(), key = lambda x: x[1]['Potantial'],reverse=True)
 
 
+date= datetime.now().strftime("%d/%m/%Y").replace("/","-")
+file_name="bedelsiz-potansiyelli-{}".format(date)
 
-
+with open("{}.txt".format(file_name), "w") as file:
+    json.dump(res, file,indent=4)
 
