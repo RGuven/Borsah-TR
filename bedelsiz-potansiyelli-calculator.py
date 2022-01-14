@@ -58,9 +58,9 @@ if len(own_companies) != 0:
             
             
             try:
-                sheet_year=str(content.xpath("//*[@value='2020/12']")[0].text)
+                sheet_year=str(content.xpath("//*[@value='2021/9']")[0].text)
             except :
-                sheet_year="Henuz 2020/12 Aciklanmamis"
+                sheet_year="Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
            
 
             result[company]={"Potantial":potential,"Sheet":sheet_year}
@@ -80,9 +80,9 @@ else:
             potential=round(((oz_kaynak-odenmis_sermaye)/odenmis_sermaye)*100,3)
 
             try:
-                sheet_year=str(content.xpath("//*[@value='2020/12']")[0].text)
+                sheet_year=str(content.xpath("//*[@value='2021/9']")[0].text)
             except :
-                sheet_year="Henuz 2020/12 Aciklanmamis"
+                sheet_year="Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
            
 
             result[company]={"Potantial":potential,"Sheet":sheet_year}
@@ -98,4 +98,3 @@ file_name="bedelsiz-potansiyelli-{}".format(date)
 
 with open("{}.txt".format(file_name), "w") as file:
     json.dump(res, file,indent=4)
-
