@@ -1,2729 +1,3080 @@
 # Borsah-TR
 Some Ratio Calculations for Investment in Turkish Stock Market
 
-## February Update Bedelsiz Potansiyelli ##
+## February Update Bedelsiz Potansiyelli 14/02/2022 ##
 
+  [
     [
         "YBTAS",
         {
-            "Potantial": 123500.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 121100.0,
+            "Sheet": "Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
         }
     ],
     [
         "ISBIR",
         {
-            "Potantial": 37100.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 66916.667,
+            "Sheet": "Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
         }
     ],
     [
         "EGEEN",
         {
-            "Potantial": 20945.161,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "KARTN",
-        {
-            "Potantial": 18946.429,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 25751.613,
+            "Sheet": "2021/9"
         }
     ],
     [
         "BRYAT",
         {
-            "Potantial": 10604.27,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 13545.907,
+            "Sheet": "2021/9"
         }
     ],
     [
         "KONYA",
         {
-            "Potantial": 7365.306,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "PGSUS",
-        {
-            "Potantial": 5633.138,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "KOZAL",
-        {
-            "Potantial": 4621.705,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "OTKAR",
-        {
-            "Potantial": 4097.083,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "ALCAR",
-        {
-            "Potantial": 3941.667,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "YESIL",
-        {
-            "Potantial": 3847.059,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "TUPRS",
-        {
-            "Potantial": 3759.065,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "CCOLA",
-        {
-            "Potantial": 3275.275,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 7600.0,
+            "Sheet": "2021/9"
         }
     ],
     [
         "PKENT",
         {
-            "Potantial": 3260.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 6520.0,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KOZAL",
+        {
+            "Potantial": 6085.115,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "TUPRS",
+        {
+            "Potantial": 5305.351,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "PGSUS",
+        {
+            "Potantial": 5035.386,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "OTKAR",
+        {
+            "Potantial": 4439.167,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ALCAR",
+        {
+            "Potantial": 4146.296,
+            "Sheet": "2021/9"
         }
     ],
     [
         "THYAO",
         {
-            "Potantial": 3086.957,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "JANTS",
-        {
-            "Potantial": 2885.586,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "EGGUB",
-        {
-            "Potantial": 2730.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "TTRAK",
-        {
-            "Potantial": 2598.876,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "ALGYO",
-        {
-            "Potantial": 2528.571,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "BRSAN",
-        {
-            "Potantial": 2488.434,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "BFREN",
-        {
-            "Potantial": 2436.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "TAVHL",
-        {
-            "Potantial": 2414.478,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "AGHOL",
-        {
-            "Potantial": 2341.027,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "PNSUT",
-        {
-            "Potantial": 2248.222,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ECZYT",
-        {
-            "Potantial": 2175.333,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "AEFES",
-        {
-            "Potantial": 2103.293,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "TURGG",
-        {
-            "Potantial": 1956.338,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ARCLK",
-        {
-            "Potantial": 1945.286,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "INVEO",
-        {
-            "Potantial": 1920.667,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "FROTO",
-        {
-            "Potantial": 1907.381,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "LOGO",
-        {
-            "Potantial": 1820.4,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "MERIT",
-        {
-            "Potantial": 1764.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ATEKS",
-        {
-            "Potantial": 1742.063,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "MAALT",
-        {
-            "Potantial": 1727.273,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ARENA",
-        {
-            "Potantial": 1724.063,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "ERBOS",
-        {
-            "Potantial": 1701.5,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "SAHOL",
-        {
-            "Potantial": 1682.974,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "CMBTN",
-        {
-            "Potantial": 1661.111,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "KCHOL",
-        {
-            "Potantial": 1620.655,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "HALKB",
-        {
-            "Potantial": 1584.611,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "GOLTS",
-        {
-            "Potantial": 1576.667,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "TKFEN",
-        {
-            "Potantial": 1558.703,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "PETUN",
-        {
-            "Potantial": 1554.042,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ULKER",
-        {
-            "Potantial": 1470.936,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ISCTR",
-        {
-            "Potantial": 1406.242,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "ARMDA",
-        {
-            "Potantial": 1385.833,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "GARAN",
-        {
-            "Potantial": 1378.136,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "CLEBI",
-        {
-            "Potantial": 1371.605,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "VESTL",
-        {
-            "Potantial": 1371.028,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "HATEK",
-        {
-            "Potantial": 1370.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "KORDS",
-        {
-            "Potantial": 1267.455,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "YGGYO",
-        {
-            "Potantial": 1265.902,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "VESBE",
-        {
-            "Potantial": 1144.211,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "POLTK",
-        {
-            "Potantial": 1139.474,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "PARSN",
-        {
-            "Potantial": 1114.267,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "AKBNK",
-        {
-            "Potantial": 1109.981,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "SRVGY",
-        {
-            "Potantial": 1105.385,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "VAKBN",
-        {
-            "Potantial": 1090.206,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "ALCTL",
-        {
-            "Potantial": 1083.463,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "EREGL",
-        {
-            "Potantial": 1049.203,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "MAVI",
-        {
-            "Potantial": 1043.058,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "CIMSA",
-        {
-            "Potantial": 1021.466,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "BANVT",
-        {
-            "Potantial": 1013.2,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "NUHCM",
-        {
-            "Potantial": 1005.393,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "KSTUR",
-        {
-            "Potantial": 976.19,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "PAGYO",
-        {
-            "Potantial": 961.724,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "NETAS",
-        {
-            "Potantial": 959.014,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "MRSHL",
-        {
-            "Potantial": 941.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "CMENT",
-        {
-            "Potantial": 870.034,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "CASA",
-        {
-            "Potantial": 861.224,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 4073.768,
+            "Sheet": "2021/9"
         }
     ],
     [
         "NATEN",
         {
-            "Potantial": 848.485,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 4033.03,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "INDES",
+        "CCOLA",
         {
-            "Potantial": 825.536,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 3796.069,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "TCELL",
+        "EGGUB",
         {
-            "Potantial": 822.218,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 3725.0,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "KUTPO",
+        "BFREN",
         {
-            "Potantial": 803.759,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 3124.0,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "DOAS",
+        "BRSAN",
         {
-            "Potantial": 802.091,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 3090.127,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "TOASO",
+        "ALGYO",
         {
-            "Potantial": 793.72,
-            "Sheet": "2020/12"
+            "Potantial": 3020.342,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "ORMA",
+        "ERBOS",
         {
-            "Potantial": 791.176,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 2944.5,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "KOZAA",
+        "TAVHL",
         {
-            "Potantial": 788.25,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "BIMAS",
-        {
-            "Potantial": 785.293,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ENKAI",
-        {
-            "Potantial": 774.694,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "AYCES",
-        {
-            "Potantial": 774.4,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "BURCE",
-        {
-            "Potantial": 763.095,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "RYGYO",
-        {
-            "Potantial": 756.789,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "LUKSK",
-        {
-            "Potantial": 722.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "TRGYO",
-        {
-            "Potantial": 703.52,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "KLMSN",
-        {
-            "Potantial": 655.303,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ISDMR",
-        {
-            "Potantial": 655.007,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "UFUK",
-        {
-            "Potantial": 654.274,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "LINK",
-        {
-            "Potantial": 649.091,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "KAREL",
-        {
-            "Potantial": 646.141,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "OZKGY",
-        {
-            "Potantial": 643.049,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "BAGFS",
-        {
-            "Potantial": 640.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "DEVA",
-        {
-            "Potantial": 632.15,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ARDYZ",
-        {
-            "Potantial": 625.941,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "SISE",
-        {
-            "Potantial": 624.549,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "NTHOL",
-        {
-            "Potantial": 623.639,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "GEDZA",
-        {
-            "Potantial": 608.547,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ASELS",
-        {
-            "Potantial": 608.035,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "AKSEN",
-        {
-            "Potantial": 603.865,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "AYGAZ",
-        {
-            "Potantial": 586.433,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ADEL",
-        {
-            "Potantial": 563.136,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "KFEIN",
-        {
-            "Potantial": 563.131,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ECILC",
-        {
-            "Potantial": 559.113,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "AKSGY",
-        {
-            "Potantial": 551.74,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "SEKUR",
-        {
-            "Potantial": 546.043,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ENJSA",
-        {
-            "Potantial": 543.603,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "TMSN",
-        {
-            "Potantial": 540.87,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "SUMAS",
-        {
-            "Potantial": 529.032,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ASUZU",
-        {
-            "Potantial": 526.905,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ANSGR",
-        {
-            "Potantial": 510.161,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "AKMGY",
-        {
-            "Potantial": 503.485,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "KLGYO",
-        {
-            "Potantial": 503.145,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "BERA",
-        {
-            "Potantial": 493.765,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "EGPRO",
-        {
-            "Potantial": 491.358,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "CEMTS",
-        {
-            "Potantial": 486.238,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "AKCNS",
-        {
-            "Potantial": 485.737,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "BAKAB",
-        {
-            "Potantial": 475.833,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "QNBFB",
-        {
-            "Potantial": 473.803,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "YKBNK",
-        {
-            "Potantial": 463.087,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "HDFGS",
-        {
-            "Potantial": 462.286,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "SELEC",
-        {
-            "Potantial": 457.907,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "GOZDE",
-        {
-            "Potantial": 455.74,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 2909.083,
+            "Sheet": "2021/9"
         }
     ],
     [
         "ESEN",
         {
-            "Potantial": 454.5,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 2855.625,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "DOCO",
+        "AGHOL",
         {
-            "Potantial": 446.723,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 2819.507,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "IPEKE",
+        "ECZYT",
         {
-            "Potantial": 445.574,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 2685.619,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "TLMAN",
+        "INVEO",
         {
-            "Potantial": 440.952,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 2586.333,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "ISMEN",
+        "TTRAK",
         {
-            "Potantial": 437.831,
-            "Sheet": "2020/12"
+            "Potantial": 2578.09,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "TBORG",
+        "FROTO",
         {
-            "Potantial": 437.24,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 2466.059,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "ARSAN",
+        "CLEBI",
         {
-            "Potantial": 425.266,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 2429.63,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "VERUS",
+        "AEFES",
         {
-            "Potantial": 423.571,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 2291.893,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "PSDTC",
+        "PNSUT",
         {
-            "Potantial": 421.622,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 2192.444,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "ULUSE",
+        "MAALT",
         {
-            "Potantial": 420.875,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 2141.818,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "DENIZ",
+        "SAHOL",
         {
-            "Potantial": 418.6,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 2096.383,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "OSMEN",
+        "ARCLK",
         {
-            "Potantial": 404.02,
-            "Sheet": "2020/12"
+            "Potantial": 2092.141,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "EPLAS",
+        "VESTL",
         {
-            "Potantial": 401.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 2091.058,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "EGSER",
+        "KCHOL",
         {
-            "Potantial": 399.867,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 2077.132,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "AKSA",
+        "TURGG",
         {
-            "Potantial": 391.291,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 2040.845,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "ACSEL",
+        "ATEKS",
         {
-            "Potantial": 385.981,
-            "Sheet": "2020/12"
+            "Potantial": 2002.381,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "PRKME",
+        "ARASE",
         {
-            "Potantial": 380.322,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1924.03,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "KNFRT",
+        "SRVGY",
         {
-            "Potantial": 376.97,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1896.538,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "TKFEN",
+        {
+            "Potantial": 1877.676,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "VESBE",
+        {
+            "Potantial": 1855.368,
+            "Sheet": "2021/9"
         }
     ],
     [
         "VERTU",
         {
-            "Potantial": 373.462,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1809.423,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "ULUUN",
+        "ARMDA",
         {
-            "Potantial": 357.633,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1754.167,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "DGATE",
+        "GOLTS",
         {
-            "Potantial": 353.333,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1751.111,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "RAYSG",
+        "PETUN",
         {
-            "Potantial": 348.064,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1718.014,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "TATGD",
+        "KORDS",
         {
-            "Potantial": 346.912,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1687.301,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "YAPRK",
+        "GOZDE",
         {
-            "Potantial": 342.254,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1612.727,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "DESPC",
+        "HALKB",
         {
-            "Potantial": 340.435,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1606.961,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "ORGE",
+        "MAVI",
         {
-            "Potantial": 339.2,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1593.159,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "ARZUM",
+        "GARAN",
         {
-            "Potantial": 335.714,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1587.176,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "ISGYO",
+        "PENTA",
         {
-            "Potantial": 330.851,
-            "Sheet": "2020/12"
+            "Potantial": 1563.616,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "SONME",
+        "ISCTR",
         {
-            "Potantial": 323.708,
-            "Sheet": "2020/12"
+            "Potantial": 1561.587,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "ALARK",
+        "CMBTN",
         {
-            "Potantial": 312.552,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1488.889,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "BRISA",
+        "PARSN",
         {
-            "Potantial": 310.39,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1473.8,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "KRTEK",
+        "CIMSA",
         {
-            "Potantial": 309.117,
-            "Sheet": "2020/12"
+            "Potantial": 1439.6,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "FMIZP",
+        "POLTK",
         {
-            "Potantial": 300.699,
-            "Sheet": "2020/12"
+            "Potantial": 1431.579,
+            "Sheet": "Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
         }
     ],
     [
-        "ISKPL",
+        "HATEK",
         {
-            "Potantial": 294.279,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1405.238,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "LKMNH",
+        "EREGL",
         {
-            "Potantial": 286.25,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1387.903,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "ALKA",
+        "ALCTL",
         {
-            "Potantial": 281.333,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1374.935,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "GSDHO",
+        "CASA",
         {
-            "Potantial": 279.689,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1363.265,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "EKGYO",
+        "YGGYO",
         {
-            "Potantial": 275.047,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1276.007,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "KRONT",
+        "DOAS",
         {
-            "Potantial": 273.427,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1265.045,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "GOODY",
+        "AKBNK",
         {
-            "Potantial": 269.889,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1250.994,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "MRGYO",
+        "MEDTR",
         {
-            "Potantial": 266.909,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1216.471,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "BUCIM",
+        "NUHCM",
         {
-            "Potantial": 260.778,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1189.747,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "GSDDE",
+        "ORMA",
         {
-            "Potantial": 254.598,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1157.353,
+            "Sheet": "Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
         }
     ],
     [
-        "ISGSY",
+        "VAKBN",
         {
-            "Potantial": 253.146,
-            "Sheet": "2020/12"
+            "Potantial": 1141.858,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "TUCLK",
+        "KTSKR",
         {
-            "Potantial": 252.333,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1118.913,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "KENT",
+        "LUKSK",
         {
-            "Potantial": 248.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1091.0,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "SASA",
+        "KOZAA",
         {
-            "Potantial": 247.747,
-            "Sheet": "2020/12"
+            "Potantial": 1056.841,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "TGSAS",
+        "ARDYZ",
         {
-            "Potantial": 246.667,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1032.218,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "GLRYH",
+        "BANVT",
         {
-            "Potantial": 246.333,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "YUNSA",
-        {
-            "Potantial": 241.781,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "FRIGO",
-        {
-            "Potantial": 239.64,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "GLYHO",
-        {
-            "Potantial": 239.153,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "SANKO",
-        {
-            "Potantial": 236.19,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "RTALB",
-        {
-            "Potantial": 235.61,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "BASCM",
-        {
-            "Potantial": 231.079,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "TURSG",
-        {
-            "Potantial": 227.034,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "DOHOL",
-        {
-            "Potantial": 225.519,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "BOSSA",
-        {
-            "Potantial": 221.29,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "YATAS",
-        {
-            "Potantial": 217.891,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "KLNMA",
-        {
-            "Potantial": 214.047,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "HEKTS",
-        {
-            "Potantial": 206.239,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "AVGYO",
-        {
-            "Potantial": 206.111,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ITTFH",
-        {
-            "Potantial": 205.9,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ANHYT",
-        {
-            "Potantial": 204.506,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "KRDMD",
-        {
-            "Potantial": 203.755,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "KRDMA",
-        {
-            "Potantial": 203.745,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "KRDMB",
-        {
-            "Potantial": 203.682,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "KRVGD",
-        {
-            "Potantial": 200.467,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "DNISI",
-        {
-            "Potantial": 200.405,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "VKGYO",
-        {
-            "Potantial": 198.13,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "AYES",
-        {
-            "Potantial": 194.667,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "DURDO",
-        {
-            "Potantial": 194.578,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "METRO",
-        {
-            "Potantial": 191.767,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ALKIM",
-        {
-            "Potantial": 189.133,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "AYEN",
-        {
-            "Potantial": 188.613,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "FADE",
-        {
-            "Potantial": 184.823,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "GEDIK",
-        {
-            "Potantial": 182.0,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "DERIM",
-        {
-            "Potantial": 179.259,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "TEKTU",
-        {
-            "Potantial": 173.233,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "MEPET",
-        {
-            "Potantial": 169.456,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "HLGYO",
-        {
-            "Potantial": 168.536,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "PKART",
-        {
-            "Potantial": 167.105,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ADESE",
-        {
-            "Potantial": 166.944,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "BLCYT",
-        {
-            "Potantial": 166.37,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "TMPOL",
-        {
-            "Potantial": 166.197,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "MEGAP",
-        {
-            "Potantial": 164.394,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "AKFGY",
-        {
-            "Potantial": 162.554,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "PAPIL",
-        {
-            "Potantial": 161.919,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "DITAS",
-        {
-            "Potantial": 161.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "AKGRT",
-        {
-            "Potantial": 159.773,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "DAGI",
-        {
-            "Potantial": 158.661,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "KAPLM",
-        {
-            "Potantial": 158.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ANELE",
-        {
-            "Potantial": 157.45,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "BIZIM",
-        {
-            "Potantial": 150.5,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "SARKY",
-        {
-            "Potantial": 146.133,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "BNTAS",
-        {
-            "Potantial": 145.736,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "DZGYO",
-        {
-            "Potantial": 145.333,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "PETKM",
-        {
-            "Potantial": 145.194,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "DYOBY",
-        {
-            "Potantial": 144.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "FLAP",
-        {
-            "Potantial": 136.741,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "CUSAN",
-        {
-            "Potantial": 136.466,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "DERAS",
-        {
-            "Potantial": 134.892,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "DMSAS",
-        {
-            "Potantial": 134.095,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "AVISA",
-        {
-            "Potantial": 133.551,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "YONGA",
-        {
-            "Potantial": 128.571,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "IZTAR",
-        {
-            "Potantial": 128.378,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "SEYKM",
-        {
-            "Potantial": 126.875,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "BAYRK",
-        {
-            "Potantial": 121.186,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "TSKB",
-        {
-            "Potantial": 118.021,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "PAMEL",
-        {
-            "Potantial": 115.882,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "AGYO",
-        {
-            "Potantial": 111.602,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "FONET",
-        {
-            "Potantial": 111.5,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "DGGYO",
-        {
-            "Potantial": 108.193,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "YKGYO",
-        {
-            "Potantial": 106.0,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "AVTUR",
-        {
-            "Potantial": 105.333,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "SMART",
-        {
-            "Potantial": 101.881,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "SAFKR",
-        {
-            "Potantial": 101.416,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "EUKYO",
-        {
-            "Potantial": 99.0,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "POLHO",
-        {
-            "Potantial": 92.459,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "MTRYO",
-        {
-            "Potantial": 92.381,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "MSGYO",
-        {
-            "Potantial": 91.356,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "DAGHL",
-        {
-            "Potantial": 90.741,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "EUYO",
-        {
-            "Potantial": 90.5,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "HUBVC",
-        {
-            "Potantial": 90.333,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "DESA",
-        {
-            "Potantial": 89.431,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ETYAT",
-        {
-            "Potantial": 87.5,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "VAKKO",
-        {
-            "Potantial": 86.562,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "KONTR",
-        {
-            "Potantial": 86.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "PRZMA",
-        {
-            "Potantial": 84.583,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "BRKSN",
-        {
-            "Potantial": 83.974,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "SKBNK",
-        {
-            "Potantial": 82.858,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "NIBAS",
-        {
-            "Potantial": 82.407,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "BTCIM",
-        {
-            "Potantial": 82.278,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "SNPAM",
-        {
-            "Potantial": 81.852,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "OYAKC",
-        {
-            "Potantial": 79.212,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "KRGYO",
-        {
-            "Potantial": 78.788,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "SKTAS",
-        {
-            "Potantial": 77.366,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "UTPYA",
-        {
-            "Potantial": 76.4,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "RODRG",
-        {
-            "Potantial": 76.056,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "CEOEM",
-        {
-            "Potantial": 75.909,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "GENTS",
-        {
-            "Potantial": 75.519,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "OSTIM",
-        {
-            "Potantial": 75.459,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "SODSN",
-        {
-            "Potantial": 74.667,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "TDGYO",
-        {
-            "Potantial": 73.333,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "OYAYO",
-        {
-            "Potantial": 72.5,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "SELGD",
-        {
-            "Potantial": 72.273,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "EDIP",
-        {
-            "Potantial": 70.923,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "DARDL",
-        {
-            "Potantial": 70.919,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "YKSLN",
-        {
-            "Potantial": 70.785,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "GUBRF",
-        {
-            "Potantial": 70.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "SANFM",
-        {
-            "Potantial": 67.424,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "EMKEL",
-        {
-            "Potantial": 64.609,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "PEKGY",
-        {
-            "Potantial": 64.111,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "OZBAL",
-        {
-            "Potantial": 63.098,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "USAK",
-        {
-            "Potantial": 62.041,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "PENGD",
-        {
-            "Potantial": 60.971,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "AKYHO",
-        {
-            "Potantial": 60.386,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "OYLUM",
-        {
-            "Potantial": 60.145,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "OZGYO",
-        {
-            "Potantial": 59.68,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "GEREL",
-        {
-            "Potantial": 57.25,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ISYAT",
-        {
-            "Potantial": 54.483,
-            "Sheet": "2020/12"
-        }
-    ],
-    [
-        "ICBCT",
-        {
-            "Potantial": 53.581,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "INTEM",
-        {
-            "Potantial": 52.577,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "INFO",
-        {
-            "Potantial": 51.9,
-            "Sheet": "2020/12"
+            "Potantial": 1025.5,
+            "Sheet": "2021/9"
         }
     ],
     [
         "MZHLD",
         {
-            "Potantial": 51.852,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1024.074,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "GLBMD",
+        "KSTUR",
         {
-            "Potantial": 50.25,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 1023.81,
+            "Sheet": "Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
         }
     ],
     [
-        "MARKA",
+        "BIMAS",
         {
-            "Potantial": 48.571,
-            "Sheet": "2020/12"
+            "Potantial": 1006.324,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "ATAGY",
+        "PAGYO",
         {
-            "Potantial": 47.899,
-            "Sheet": "2020/12"
+            "Potantial": 981.839,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "OLMIP",
+        "ENKAI",
         {
-            "Potantial": 44.638,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 977.67,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "KATMR",
+        "CMENT",
         {
-            "Potantial": 42.667,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 960.39,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "IDEAS",
+        "EGPRO",
         {
-            "Potantial": 42.105,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 959.63,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "TUKAS",
+        "OZKGY",
         {
-            "Potantial": 40.792,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 948.214,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "YAYLA",
+        "DEVA",
         {
-            "Potantial": 38.076,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 940.7,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "IDGYO",
+        "KARYE",
         {
-            "Potantial": 38.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 934.727,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "IHGZT",
+        "BAGFS",
         {
-            "Potantial": 38.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 914.667,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "TIRE",
+        "TOASO",
         {
-            "Potantial": 37.95,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 900.36,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "YYAPI",
+        "TCELL",
         {
-            "Potantial": 35.196,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 896.218,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "KERVT",
+        "ISDMR",
         {
-            "Potantial": 33.792,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 896.197,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "KRSTL",
+        "SUMAS",
         {
-            "Potantial": 31.354,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 888.71,
+            "Sheet": "Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
         }
     ],
     [
-        "TACTR",
+        "VERUS",
         {
-            "Potantial": 30.986,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 874.286,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "ATLAS",
+        "KUTPO",
         {
-            "Potantial": 30.833,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 870.677,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "VANGD",
+        "KZBGY",
         {
-            "Potantial": 30.4,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 861.958,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "BEYAZ",
+        "MERIT",
         {
-            "Potantial": 28.084,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 854.804,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "ULAS",
+        "AYCES",
         {
-            "Potantial": 26.772,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 836.4,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "MIPAZ",
+        "KARTN",
         {
-            "Potantial": 25.529,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 824.533,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "ESCOM",
+        "ASELS",
         {
-            "Potantial": 21.6,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 804.346,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "IHEVA",
+        "TRGYO",
         {
-            "Potantial": 20.999,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 784.02,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "AFYON",
+        "SISE",
         {
-            "Potantial": 18.9,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 782.153,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "UTPYA",
+        {
+            "Potantial": 773.2,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "AYGAZ",
+        {
+            "Potantial": 772.233,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ANSGR",
+        {
+            "Potantial": 772.19,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "AKSEN",
+        {
+            "Potantial": 769.765,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "UFUK",
+        {
+            "Potantial": 769.658,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "TLMAN",
+        {
+            "Potantial": 746.667,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "NETAS",
+        {
+            "Potantial": 742.835,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "BURCE",
+        {
+            "Potantial": 726.19,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ULKER",
+        {
+            "Potantial": 718.947,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "EPLAS",
+        {
+            "Potantial": 714.0,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ESCAR",
+        {
+            "Potantial": 706.63,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ECILC",
+        {
+            "Potantial": 696.702,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "SEKUR",
+        {
+            "Potantial": 669.065,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KFEIN",
+        {
+            "Potantial": 657.576,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "IPEKE",
+        {
+            "Potantial": 655.466,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "RAYSG",
+        {
+            "Potantial": 655.426,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "TMSN",
+        {
+            "Potantial": 652.261,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "YEOTK",
+        {
+            "Potantial": 649.583,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "BERA",
+        {
+            "Potantial": 647.365,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "AKSA",
+        {
+            "Potantial": 639.623,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "OSMEN",
+        {
+            "Potantial": 638.725,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KLMSN",
+        {
+            "Potantial": 634.722,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "CEMTS",
+        {
+            "Potantial": 633.861,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ASUZU",
+        {
+            "Potantial": 632.619,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "AYDEM",
+        {
+            "Potantial": 632.113,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "TBORG",
+        {
+            "Potantial": 627.07,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "MRSHL",
+        {
+            "Potantial": 603.0,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "RTALB",
+        {
+            "Potantial": 596.744,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "AKCNS",
+        {
+            "Potantial": 595.664,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ISMEN",
+        {
+            "Potantial": 588.113,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "BOSSA",
+        {
+            "Potantial": 580.968,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "DOCO",
+        {
+            "Potantial": 579.163,
+            "Sheet": "Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
+        }
+    ],
+    [
+        "ATATP",
+        {
+            "Potantial": 574.4,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "SELEC",
+        {
+            "Potantial": 570.87,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "YKBNK",
+        {
+            "Potantial": 560.27,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ARENA",
+        {
+            "Potantial": 559.8,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "OYYAT",
+        {
+            "Potantial": 558.83,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "LOGO",
+        {
+            "Potantial": 553.0,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "QNBFB",
+        {
+            "Potantial": 549.075,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ENJSA",
+        {
+            "Potantial": 546.304,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "EGSER",
+        {
+            "Potantial": 535.467,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ALARK",
+        {
+            "Potantial": 533.885,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KONKA",
+        {
+            "Potantial": 528.538,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "NTHOL",
+        {
+            "Potantial": 524.419,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "FRIGO",
+        {
+            "Potantial": 524.324,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "TATGD",
+        {
+            "Potantial": 523.309,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "TETMT",
+        {
+            "Potantial": 520.0,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "BAKAB",
+        {
+            "Potantial": 516.667,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "BRISA",
+        {
+            "Potantial": 514.716,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ADEL",
+        {
+            "Potantial": 481.356,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "MAGEN",
+        {
+            "Potantial": 478.951,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "AKMGY",
+        {
+            "Potantial": 477.748,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "MANAS",
+        {
+            "Potantial": 472.727,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "JANTS",
+        {
+            "Potantial": 463.492,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ORCAY",
+        {
+            "Potantial": 460.0,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "TEZOL",
+        {
+            "Potantial": 459.9,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "GUBRF",
+        {
+            "Potantial": 447.605,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ACSEL",
+        {
+            "Potantial": 440.187,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "PRKME",
+        {
+            "Potantial": 424.715,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KRDMA",
+        {
+            "Potantial": 418.56,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KRDMD",
+        {
+            "Potantial": 418.559,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KRDMB",
+        {
+            "Potantial": 418.41,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KONTR",
+        {
+            "Potantial": 418.373,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "GEDZA",
+        {
+            "Potantial": 416.738,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "DGATE",
+        {
+            "Potantial": 411.0,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "TUCLK",
+        {
+            "Potantial": 408.667,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "GESAN",
+        {
+            "Potantial": 406.87,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ULUSE",
+        {
+            "Potantial": 403.75,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "PSDTC",
+        {
+            "Potantial": 395.946,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "SANKO",
+        {
+            "Potantial": 394.0,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "VBTYZ",
+        {
+            "Potantial": 392.692,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "TURSG",
+        {
+            "Potantial": 391.389,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "DESPC",
+        {
+            "Potantial": 387.826,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "RYGYO",
+        {
+            "Potantial": 381.4,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ARZUM",
+        {
+            "Potantial": 376.708,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KRTEK",
+        {
+            "Potantial": 376.068,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "AYES",
+        {
+            "Potantial": 368.0,
+            "Sheet": "Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
+        }
+    ],
+    [
+        "GSDHO",
+        {
+            "Potantial": 362.067,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KLKIM",
+        {
+            "Potantial": 357.391,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "PETKM",
+        {
+            "Potantial": 351.199,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "AKSGY",
+        {
+            "Potantial": 349.988,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "AKGRT",
+        {
+            "Potantial": 346.6,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "LINK",
+        {
+            "Potantial": 345.455,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "YATAS",
+        {
+            "Potantial": 345.394,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "SONME",
+        {
+            "Potantial": 341.533,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "LKMNH",
+        {
+            "Potantial": 340.278,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ARSAN",
+        {
+            "Potantial": 340.0,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "GOODY",
+        {
+            "Potantial": 338.148,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "TTKOM",
+        {
+            "Potantial": 336.203,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ISGYO",
+        {
+            "Potantial": 331.967,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "DNISI",
+        {
+            "Potantial": 331.599,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "BIOEN",
+        {
+            "Potantial": 330.333,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "FMIZP",
+        {
+            "Potantial": 320.979,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KRONT",
+        {
+            "Potantial": 318.881,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "TGSAS",
+        {
+            "Potantial": 318.667,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KRVGD",
+        {
+            "Potantial": 318.208,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KENT",
+        {
+            "Potantial": 314.091,
+            "Sheet": "2021/9"
         }
     ],
     [
         "DOKTA",
         {
-            "Potantial": 18.879,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 311.724,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "MPARK",
+        "EKGYO",
         {
-            "Potantial": 17.74,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 309.476,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "TRCAS",
+        "MERCN",
         {
-            "Potantial": 16.706,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 308.189,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "CELHA",
+        "BMSCH",
         {
-            "Potantial": 14.545,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 304.155,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "ERSU",
+        "ALKA",
         {
-            "Potantial": 11.111,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 297.714,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "GRNYO",
+        "GENIL",
         {
-            "Potantial": 9.067,
-            "Sheet": "2020/12"
+            "Potantial": 292.533,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "EUHOL",
+        "TMPOL",
         {
-            "Potantial": 5.167,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 284.507,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "IZFAS",
+        "RNPOL",
         {
-            "Potantial": 4.734,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 282.5,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "RALYH",
+        "BRLSM",
         {
-            "Potantial": 4.603,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 281.275,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "EKIZ",
+        "ANHYT",
         {
-            "Potantial": 4.167,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 274.976,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "HURGZ",
+        "SARKY",
         {
-            "Potantial": 1.841,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 272.733,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "KUYAS",
+        "DOHOL",
         {
-            "Potantial": 1.472,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 271.512,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "MERKO",
+        "ORGE",
         {
-            "Potantial": -1.864,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 270.125,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "DOBUR",
+        "KAPLM",
         {
-            "Potantial": -2.041,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 260.5,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "CEMAS",
+        "SASA",
         {
-            "Potantial": -2.574,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 260.339,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "AVHOL",
+        "AYEN",
         {
-            "Potantial": -2.667,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 260.216,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "BURVA",
+        "FADE",
         {
-            "Potantial": -4.11,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 253.05,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "SILVR",
+        "ISGSY",
         {
-            "Potantial": -4.222,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 253.012,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "VKFYO",
+        "ALKIM",
         {
-            "Potantial": -6.333,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 250.0,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "TSGYO",
+        "SNKRN",
         {
-            "Potantial": -7.08,
-            "Sheet": "2020/12"
+            "Potantial": 247.436,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "ODAS",
+        "MEPET",
         {
-            "Potantial": -8.6,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 245.286,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "OZRDN",
+        "CUSAN",
         {
-            "Potantial": -11.905,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 243.198,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "PEGYO",
+        "DMSAS",
         {
-            "Potantial": -16.835,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 240.571,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "ZOREN",
+        "MIATK",
         {
-            "Potantial": -17.595,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 240.0,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "SERVE",
+        "YONGA",
         {
-            "Potantial": -19.403,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 234.524,
+            "Sheet": "Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
         }
     ],
     [
-        "SAMAT",
+        "TUREX",
         {
-            "Potantial": -19.672,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 224.907,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "AKSUE",
+        "ADESE",
         {
-            "Potantial": -20.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 224.563,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "ETILR",
+        "DYOBY",
         {
-            "Potantial": -20.93,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 218.5,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "IHLGM",
+        "METRO",
         {
-            "Potantial": -22.059,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 215.8,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "FORMT",
+        "PKART",
         {
-            "Potantial": -22.632,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 215.789,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "IHYAY",
+        "MNDRS",
         {
-            "Potantial": -24.089,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 215.68,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "AVOD",
+        "ANGEN",
         {
-            "Potantial": -25.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 215.4,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "KARSN",
+        "ULUUN",
         {
-            "Potantial": -25.678,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 215.393,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "PINSU",
+        "QUAGR",
         {
-            "Potantial": -31.92,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 212.958,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "SANFM",
+        {
+            "Potantial": 210.606,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ELITE",
+        {
+            "Potantial": 207.8,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "UNLU",
+        {
+            "Potantial": 205.943,
+            "Sheet": "2021/9"
         }
     ],
     [
         "SAYAS",
         {
-            "Potantial": -32.558,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 204.264,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "SANEL",
+        "FONET",
         {
-            "Potantial": -34.426,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 200.5,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "BRKO",
+        "NTGAZ",
         {
-            "Potantial": -34.917,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "MAKTK",
-        {
-            "Potantial": -35.05,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "RHEAG",
-        {
-            "Potantial": -36.867,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 200.348,
+            "Sheet": "2021/9"
         }
     ],
     [
         "COSMO",
         {
-            "Potantial": -38.333,
-            "Sheet": "2020/12"
+            "Potantial": 196.667,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "BASGZ",
+        {
+            "Potantial": 194.929,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "BASCM",
+        {
+            "Potantial": 193.617,
+            "Sheet": "Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
+        }
+    ],
+    [
+        "KAREL",
+        {
+            "Potantial": 192.7,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "INDES",
+        {
+            "Potantial": 190.402,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "EDATA",
+        {
+            "Potantial": 189.333,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "HUBVC",
+        {
+            "Potantial": 189.333,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "HLGYO",
+        {
+            "Potantial": 189.147,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "CANTE",
+        {
+            "Potantial": 188.469,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "PAPIL",
+        {
+            "Potantial": 181.977,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "BLCYT",
+        {
+            "Potantial": 181.235,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "DURDO",
+        {
+            "Potantial": 177.714,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "DITAS",
+        {
+            "Potantial": 177.692,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "DAGHL",
+        {
+            "Potantial": 175.926,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "BRKSN",
+        {
+            "Potantial": 174.359,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "SNGYO",
+        {
+            "Potantial": 167.476,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "DERIM",
+        {
+            "Potantial": 164.815,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "INTEM",
+        {
+            "Potantial": 163.918,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KLNMA",
+        {
+            "Potantial": 163.912,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "TEKTU",
+        {
+            "Potantial": 156.467,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "TIRE",
+        {
+            "Potantial": 153.35,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "BIZIM",
+        {
+            "Potantial": 152.667,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "HDFGS",
+        {
+            "Potantial": 151.754,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "YUNSA",
+        {
+            "Potantial": 150.685,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "GSDDE",
+        {
+            "Potantial": 149.6,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "PAMEL",
+        {
+            "Potantial": 149.196,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "DERHL",
+        {
+            "Potantial": 148.561,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "POLHO",
+        {
+            "Potantial": 146.684,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "HEDEF",
+        {
+            "Potantial": 141.68,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "BAYRK",
+        {
+            "Potantial": 139.831,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "TSKB",
+        {
+            "Potantial": 138.832,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "YAPRK",
+        {
+            "Potantial": 138.732,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "EGEPO",
+        {
+            "Potantial": 138.64,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "BUCIM",
+        {
+            "Potantial": 138.48,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "AGESA",
+        {
+            "Potantial": 137.281,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KLGYO",
+        {
+            "Potantial": 137.226,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ISSEN",
+        {
+            "Potantial": 137.143,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "GLRYH",
+        {
+            "Potantial": 135.5,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "OYAKC",
+        {
+            "Potantial": 134.032,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "VAKKO",
+        {
+            "Potantial": 133.188,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "YESIL",
+        {
+            "Potantial": 132.651,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "RYSAS",
+        {
+            "Potantial": 132.52,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "AKFGY",
+        {
+            "Potantial": 131.867,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "TUKAS",
+        {
+            "Potantial": 131.842,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "MRGYO",
+        {
+            "Potantial": 126.818,
+            "Sheet": "Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
+        }
+    ],
+    [
+        "GLBMD",
+        {
+            "Potantial": 125.0,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "SNPAM",
+        {
+            "Potantial": 123.78,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "PRZMA",
+        {
+            "Potantial": 123.75,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ANELE",
+        {
+            "Potantial": 122.8,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "GLYHO",
+        {
+            "Potantial": 120.477,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "MSGYO",
+        {
+            "Potantial": 119.3,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KGYO",
+        {
+            "Potantial": 119.0,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "AVGYO",
+        {
+            "Potantial": 116.219,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "SODSN",
+        {
+            "Potantial": 116.0,
+            "Sheet": "Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
+        }
+    ],
+    [
+        "SAFKR",
+        {
+            "Potantial": 115.014,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "AVTUR",
+        {
+            "Potantial": 111.778,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "RODRG",
+        {
+            "Potantial": 111.268,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "SMART",
+        {
+            "Potantial": 110.031,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "MPARK",
+        {
+            "Potantial": 109.663,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "BNTAS",
+        {
+            "Potantial": 109.347,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "VKGYO",
+        {
+            "Potantial": 106.05,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "DESA",
+        {
+            "Potantial": 105.081,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "EUKYO",
+        {
+            "Potantial": 105.0,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "MERKO",
+        {
+            "Potantial": 100.964,
+            "Sheet": "Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
+        }
+    ],
+    [
+        "AGYO",
+        {
+            "Potantial": 100.152,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "OLMK",
+        {
+            "Potantial": 97.653,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KERVT",
+        {
+            "Potantial": 97.508,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "CEOEM",
+        {
+            "Potantial": 96.818,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "EUYO",
+        {
+            "Potantial": 96.0,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "DAGI",
+        {
+            "Potantial": 94.919,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KRGYO",
+        {
+            "Potantial": 93.939,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "MTRYO",
+        {
+            "Potantial": 92.857,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "BOBET",
+        {
+            "Potantial": 92.816,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "PRKAB",
+        {
+            "Potantial": 92.155,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ETYAT",
+        {
+            "Potantial": 92.0,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "TRILC",
+        {
+            "Potantial": 91.595,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "EMNIS",
+        {
+            "Potantial": 90.323,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "GMTAS",
+        {
+            "Potantial": 89.41,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "OYAYO",
+        {
+            "Potantial": 86.5,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "MEGAP",
+        {
+            "Potantial": 86.053,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "TDGYO",
+        {
+            "Potantial": 85.667,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ERCB",
+        {
+            "Potantial": 85.421,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ERSU",
+        {
+            "Potantial": 85.278,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "MTRKS",
+        {
+            "Potantial": 85.075,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ESCOM",
+        {
+            "Potantial": 85.0,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "IDEAS",
+        {
+            "Potantial": 83.158,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "GEDIK",
+        {
+            "Potantial": 80.437,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "IZTAR",
+        {
+            "Potantial": 79.054,
+            "Sheet": "2021/9"
         }
     ],
     [
         "DENGE",
         {
-            "Potantial": -40.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": 78.3,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "OYLUM",
+        {
+            "Potantial": 76.812,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "GEREL",
+        {
+            "Potantial": 76.25,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "PENGD",
+        {
+            "Potantial": 75.943,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KIMMR",
+        {
+            "Potantial": 75.917,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KUYAS",
+        {
+            "Potantial": 74.7,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "SELGD",
+        {
+            "Potantial": 74.545,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "EKIZ",
+        {
+            "Potantial": 72.222,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "GWIND",
+        {
+            "Potantial": 72.027,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "OZGYO",
+        {
+            "Potantial": 71.68,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ICBCT",
+        {
+            "Potantial": 71.267,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "GENTS",
+        {
+            "Potantial": 70.25,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "BEYAZ",
+        {
+            "Potantial": 69.208,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "YKSLN",
+        {
+            "Potantial": 68.8,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "IZFAS",
+        {
+            "Potantial": 68.047,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "USAK",
+        {
+            "Potantial": 66.939,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ISKPL",
+        {
+            "Potantial": 66.275,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ITTFH",
+        {
+            "Potantial": 66.068,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "SELVA",
+        {
+            "Potantial": 60.128,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "DZGYO",
+        {
+            "Potantial": 59.9,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "TRCAS",
+        {
+            "Potantial": 59.546,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "INFO",
+        {
+            "Potantial": 59.16,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "NIBAS",
+        {
+            "Potantial": 58.889,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "DGGYO",
+        {
+            "Potantial": 55.633,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ISYAT",
+        {
+            "Potantial": 53.923,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ZRGYO",
+        {
+            "Potantial": 51.419,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "VANGD",
+        {
+            "Potantial": 48.8,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "HEKTS",
+        {
+            "Potantial": 46.837,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "FLAP",
+        {
+            "Potantial": 46.162,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "SKBNK",
+        {
+            "Potantial": 45.14,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "OSTIM",
+        {
+            "Potantial": 44.091,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "SEYKM",
+        {
+            "Potantial": 43.659,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "AFYON",
+        {
+            "Potantial": 42.625,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "MIPAZ",
+        {
+            "Potantial": 40.337,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "OTTO",
+        {
+            "Potantial": 38.028,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "MOBTL",
+        {
+            "Potantial": 36.316,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KNFRT",
+        {
+            "Potantial": 36.061,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "EMKEL",
+        {
+            "Potantial": 36.0,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "RALYH",
+        {
+            "Potantial": 35.714,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ATLAS",
+        {
+            "Potantial": 34.667,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "YAYLA",
+        {
+            "Potantial": 33.267,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "IHAAS",
+        {
+            "Potantial": 32.143,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ULAS",
+        {
+            "Potantial": 30.315,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "OZRDN",
+        {
+            "Potantial": 30.0,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "PEKGY",
+        {
+            "Potantial": 28.546,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "BTCIM",
+        {
+            "Potantial": 27.444,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "YYAPI",
+        {
+            "Potantial": 24.796,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KRSTL",
+        {
+            "Potantial": 24.167,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "CELHA",
+        {
+            "Potantial": 24.096,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "SILVR",
+        {
+            "Potantial": 23.778,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "IHEVA",
+        {
+            "Potantial": 23.224,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ODAS",
+        {
+            "Potantial": 20.871,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "SKTAS",
+        {
+            "Potantial": 19.831,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "AKYHO",
+        {
+            "Potantial": 18.453,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "AVHOL",
+        {
+            "Potantial": 15.333,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "DARDL",
+        {
+            "Potantial": 11.517,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "GRNYO",
+        {
+            "Potantial": 10.667,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "IHGZT",
+        {
+            "Potantial": 10.412,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "CEMAS",
+        {
+            "Potantial": 8.622,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "PCILT",
+        {
+            "Potantial": 8.286,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "IZMDC",
+        {
+            "Potantial": 7.787,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "EUHOL",
+        {
+            "Potantial": 7.167,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "IDGYO",
+        {
+            "Potantial": 6.8,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ATAGY",
+        {
+            "Potantial": 5.882,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "VKFYO",
+        {
+            "Potantial": 4.667,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "DOBUR",
+        {
+            "Potantial": 4.592,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "PSGYO",
+        {
+            "Potantial": 1.85,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KATMR",
+        {
+            "Potantial": 0.322,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ETILR",
+        {
+            "Potantial": 0.0,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "PINSU",
+        {
+            "Potantial": -0.446,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "AKSUE",
+        {
+            "Potantial": -4.848,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "MGROS",
+        {
+            "Potantial": -5.853,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "FORMT",
+        {
+            "Potantial": -6.423,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ZOREN",
+        {
+            "Potantial": -7.744,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "IHLGM",
+        {
+            "Potantial": -8.38,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "TSGYO",
+        {
+            "Potantial": -8.523,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "HURGZ",
+        {
+            "Potantial": -10.98,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "PEGYO",
+        {
+            "Potantial": -13.885,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "METUR",
+        {
+            "Potantial": -15.0,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ALMAD",
+        {
+            "Potantial": -15.905,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "IHYAY",
+        {
+            "Potantial": -17.911,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "KARSN",
+        {
+            "Potantial": -19.511,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "SOKM",
+        {
+            "Potantial": -19.84,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "NUGYO",
+        {
+            "Potantial": -20.922,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "IHLAS",
+        {
+            "Potantial": -21.36,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "BURVA",
+        {
+            "Potantial": -21.918,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "SERVE",
+        {
+            "Potantial": -24.627,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "MAKTK",
+        {
+            "Potantial": -25.7,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "AVOD",
+        {
+            "Potantial": -25.778,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "MARKA",
+        {
+            "Potantial": -26.667,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "TKNSA",
+        {
+            "Potantial": -32.338,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "BRKO",
+        {
+            "Potantial": -38.083,
+            "Sheet": "2021/9"
         }
     ],
     [
         "DOGUB",
         {
             "Potantial": -40.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ALMAD",
-        {
-            "Potantial": -43.619,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "IHLAS",
-        {
-            "Potantial": -46.331,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "MGROS",
-        {
-            "Potantial": -46.991,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "NUGYO",
-        {
-            "Potantial": -53.017,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "BALAT",
-        {
-            "Potantial": -53.279,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Sheet": "2021/9"
         }
     ],
     [
         "IEYHO",
         {
-            "Potantial": -59.915,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "DIRIT",
-        {
-            "Potantial": -65.421,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "ALBRK",
-        {
-            "Potantial": -66.014,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "SNKRN",
-        {
-            "Potantial": -67.949,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "UZERB",
-        {
-            "Potantial": -70.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": -41.391,
+            "Sheet": "2021/9"
         }
     ],
     [
         "ATSYH",
         {
-            "Potantial": -71.25,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": -43.75,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "ARTI",
+        "SAMAT",
         {
-            "Potantial": -74.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": -50.546,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "SOKM",
+        "RHEAG",
         {
-            "Potantial": -85.341,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": -52.289,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "DGNMO",
+        {
+            "Potantial": -56.314,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "UZERB",
+        {
+            "Potantial": -63.75,
+            "Sheet": "Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
+        }
+    ],
+    [
+        "SANEL",
+        {
+            "Potantial": -65.027,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "ALBRK",
+        {
+            "Potantial": -66.755,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "BALAT",
+        {
+            "Potantial": -69.672,
+            "Sheet": "Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
         }
     ],
     [
         "ROYAL",
         {
-            "Potantial": -86.833,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": -76.5,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "SNGYO",
+        "DIRIT",
         {
-            "Potantial": -90.472,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": -86.916,
+            "Sheet": "2021/9"
         }
     ],
     [
         "MMCAS",
         {
-            "Potantial": -90.977,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "MNDRS",
-        {
-            "Potantial": -93.04,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "RYSAS",
-        {
-            "Potantial": -96.06,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "METUR",
-        {
-            "Potantial": -97.778,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": -99.248,
+            "Sheet": "2021/9"
         }
     ],
     [
         "UMPAS",
         {
-            "Potantial": -107.538,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": -108.794,
+            "Sheet": "Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
         }
     ],
     [
-        "DGKLB",
+        "EDIP",
         {
-            "Potantial": -109.513,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": -111.231,
+            "Sheet": "2021/9"
         }
     ],
     [
         "BSOKE",
         {
-            "Potantial": -114.825,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "AKENR",
-        {
-            "Potantial": -121.462,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "TKURU",
-        {
-            "Potantial": -130.0,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "CRFSA",
-        {
-            "Potantial": -142.657,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "VKING",
-        {
-            "Potantial": -148.095,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": -148.575,
+            "Sheet": "2021/9"
         }
     ],
     [
         "KERVN",
         {
-            "Potantial": -157.315,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "YGYO",
-        {
-            "Potantial": -178.818,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": -170.773,
+            "Sheet": "2021/9"
         }
     ],
     [
         "BRMEN",
         {
-            "Potantial": -179.878,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": -178.049,
+            "Sheet": "2021/9"
         }
     ],
     [
-        "IZMDC",
+        "AKENR",
         {
-            "Potantial": -195.733,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": -213.59,
+            "Sheet": "2021/9"
         }
     ],
     [
         "GSRAY",
         {
-            "Potantial": -197.926,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "MARTI",
-        {
-            "Potantial": -226.667,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
-        }
-    ],
-    [
-        "TKNSA",
-        {
-            "Potantial": -314.273,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": -232.852,
+            "Sheet": "Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
         }
     ],
     [
         "TSPOR",
         {
-            "Potantial": -360.321,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": -235.62,
+            "Sheet": "Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
         }
     ],
     [
-        "EMNIS",
+        "YGYO",
         {
-            "Potantial": -495.161,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": -258.613,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "MARTI",
+        {
+            "Potantial": -266.25,
+            "Sheet": "Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
+        }
+    ],
+    [
+        "VKING",
+        {
+            "Potantial": -283.571,
+            "Sheet": "2021/9"
+        }
+    ],
+    [
+        "CRFSA",
+        {
+            "Potantial": -336.385,
+            "Sheet": "2021/9"
         }
     ],
     [
         "BJKAS",
         {
-            "Potantial": -733.667,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": -808.125,
+            "Sheet": "Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
         }
     ],
     [
         "FENER",
         {
-            "Potantial": -966.263,
-            "Sheet": "Henuz 2020/12 Aciklanmamis"
+            "Potantial": -862.121,
+            "Sheet": "Henuz 2021/9 Aciklanmamis -> hesaplama 2021/6 bilançosuna göre yapıldı."
         }
     ]
-
+]
